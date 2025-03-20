@@ -1,0 +1,31 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+}
+.btn{
+    position: absolute;
+    top:50%;
+    width: 150px;
+    height: 40px;
+    background-color:orange;
+    border-radius: 20px;
+    border-color:yellowgreen;
+    box-shadow: 10px 10px 30px green ;
+}
+.btn:hover{
+    background-color: aqua;
+    box-shadow: 10px 20px 20px black;
+    transition: 0.7s;
+}
+.btn:focus{
+    background-color: gray;
+    transition: 3s;
+    box-shadow:2px -4px 10px black;
+
+}
+.btn:active{
+    background-color: rgb(65, 241, 21);
+    
+}
